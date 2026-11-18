@@ -6,7 +6,7 @@ o site da escola de si (escoladesi.com.br). o que entra no ramo `main` vai pro a
 
 - **fefe:** dona do site e da conta do netlify.
 - **thiago:** faz o site.
-- **fábio (faresende):** dono deste repositório no github. pôr ou tirar alguém daqui é com ele.
+- **fábio (faresende):** owner da organização escola-de-si no github, onde este repositório mora. pôr ou tirar alguém daqui é com quem é owner da organização (hoje, o fábio).
 
 ## como mudar o site
 
