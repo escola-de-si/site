@@ -1,0 +1,11 @@
+/* sora · escola de si
+   fonte variável, peso de 100 a 800 (eixo wght). licença: OFL.txt (SIL Open Font License 1.1).
+   o arquivo de web traz os caracteres do português do Brasil (faixa latin) e todas as features
+   OpenType da Sora: tnum, case, ss01, frac, sups, ordn, kern. a Sora não tem setas. */
+@font-face {
+  font-family: "Sora";
+  src: url("sora-variavel-web.woff2") format("woff2");
+  font-weight: 100 800;
+  font-style: normal;
+  font-display: swap;
+}

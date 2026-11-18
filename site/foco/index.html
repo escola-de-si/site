@@ -1,0 +1,224 @@
+<!doctype html>
+<!--
+página: sessão de foco com fefe resende (a landing page do fim de 2026)
+modelo: página de curso, do jeito da página de venda (cabeçalho sem menu, só o logo e um botão)
+fonte: a página "site escola + ff" que a fefe escreveu no notion (feferesende.notion.site/foco), com o texto dela,
+  e o retorno dela de 17/11: a sessão é de 1h30, as perguntas vão no e-mail, sem foto, o como funciona do jeito
+  da consultoria do v1, o crédito da consultoria no fim, os contatos no rodapé
+feita com: o sistema de design v2 (fefe.whoisthisfabio.com/sistema/). css, js, fontes e marca são copiados de lá
+  por _build/foco.py; esta página é a fonte e se escreve à mão
+o e-mail: o assunto e as perguntas dela vão no mailto, no body (cada linha termina em %0D%0A). os três botões que
+  abrem o e-mail (o da caixa, o do fim de "o que você leva" e o da barra do celular) levam o mesmo endereço
+-->
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#B8DDD1">
+  <title>sessão de foco com fefe resende · escola de si</title>
+  <meta name="description" content="pra quem faz um bom trabalho e trava na hora de falar disso: uma sessão individual com fefe resende pra montar um plano prático pra 2027">
+  <link rel="canonical" href="https://www.escoladesi.com.br/foco/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="escola de si">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="sessão de foco com fefe resende">
+  <meta property="og:description" content="pra quem faz um bom trabalho e trava na hora de falar disso: uma sessão individual com fefe resende pra montar um plano prático pra 2027">
+  <meta property="og:url" content="https://www.escoladesi.com.br/foco/">
+  <meta property="og:image" content="https://www.escoladesi.com.br/foco/marca/compartilhar/padrao.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="saber de si pra falar de si, escola de si">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="marca/favicon/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fontes/sora-variavel-web.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="fontes/sora.css">
+  <link rel="stylesheet" href="css/escola-de-si.min.css">
+  <script src="js/escola-de-si.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">pular pro conteúdo</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="./"><img src="marca/logo/logo-horizontal-vermelho.svg" alt="escola de si" width="177" height="30"></a>
+      <a class="btn btn--small" href="#matricula">quero agendar<span class="sr-only"> minha sessão</span></a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <section class="page-hero bg-sand">
+      <div class="wrap split">
+        <div class="stack stack--block">
+          <div>
+            <p class="label"><span class="us" aria-hidden="true">_</span>consultoria individual de comunicação</p>
+            <h1 class="h1">sessão de foco com fefe resende</h1>
+            <p class="poetic">pra quem faz um bom trabalho e trava na hora de falar disso</p>
+          </div>
+          <div class="stack">
+            <p class="lead">o que ficou emperrado em sua comunicação nesse 2026?</p>
+            <p>em uma sessão individual de 1h30, a gente identifica o que mais precisa de sua atenção e monta um plano prático de verdade pra fazer seu trabalho circular em 2027</p>
+            <p>dá pra usar o fôlego que ainda tem neste ano pra decidir o que fazer primeiro, o que pode esperar, o que constrói sentido pro ano/pra vida</p>
+          </div>
+        </div>
+        <aside class="buybox" id="matricula" aria-label="sessões de fim de ano" data-oferta="aberta">
+          <p class="label"><span class="us" aria-hidden="true">_</span>sessões de fim de ano</p>
+          <dl class="facts">
+            <div><dt>datas disponíveis</dt><dd>de <time datetime="2026-11-26">26/11</time> a <time datetime="2026-12-15">15/12</time></dd></div>
+            <div><dt>duração</dt><dd>1h30, encontro individual</dd></div>
+            <div><dt>onde</dt><dd>online ou presencial em são paulo (bora combinar!)</dd></div>
+          </dl>
+          <p class="price">R$&nbsp;950,00</p>
+          <p class="price-note">via pix com 5% de desconto ou em até 3x sem juros via paypal</p>
+          <a class="btn btn--block" href="mailto:ei@feferesende.com.br?subject=quero%20agendar%20minha%20sess%C3%A3o%20de%20foco&amp;body=ei%21%20quero%20agendar%20minha%20sess%C3%A3o%20de%20foco%20%3A%29%0D%0A%28pra%20come%C3%A7ar%2C%20responde%20%C3%A0s%20perguntas%3B%20pode%20ser%20em%20t%C3%B3picos%2C%20do%20seu%20jeito%20%3A%29%0D%0A%0D%0A%0D%0A_um%20pouco%20sobre%20meu%20trabalho%0D%0Ao%20que%20voc%C3%AA%20faz%3F%20e%20o%20que%20gostaria%20que%20as%20pessoas%20entendessem%20melhor%20sobre%20seu%20trabalho%3F%0D%0A%0D%0A_minha%20comunica%C3%A7%C3%A3o%20hoje%0D%0Aonde%20voc%C3%AA%20comunica%20seu%20trabalho%3F%20conta%20quais%20canais%20usa%2C%20compartilha%20os%20links%20que%20quer%20que%20eu%20conhe%C3%A7a%0D%0A%0D%0A_o%20que%20est%C3%A1%20emperrado%0D%0Aquais%20s%C3%A3o%20suas%20tr%C3%AAs%20principais%20dificuldades%20de%20comunica%C3%A7%C3%A3o%20hoje%3F%0D%0A%0D%0A_o%20que%20eu%20gostaria%20de%20conseguir%0D%0Ao%20que%20voc%C3%AA%20gostaria%20que%20sua%20comunica%C3%A7%C3%A3o%20ajudasse%20a%20realizar%20em%202027%3F%20o%20que%20faria%20essa%20sess%C3%A3o%20valer%20a%20pena%20pra%20voc%C3%AA%3F%0D%0A%0D%0A_pagamento%20e%20agendamento%0D%0Aque%20per%C3%ADodo%20funciona%20melhor%20pra%20voc%C3%AA%3A%20manh%C3%A3%2C%20tarde%20ou%20fim%20do%20dia%0D%0Aprefere%20pagar%20R%24%20902%2C50%20via%20pix%20ou%20R%24%20950%20em%20at%C3%A9%203x%20sem%20juros%20via%20paypal%3F%20se%20preferir%20paypal%2C%20compartilhe%20o%20e-mail%20da%20sua%20conta%20por%20l%C3%A1%20%3A%29%0D%0A">quero agendar minha sessão<span class="icon icon--email" aria-hidden="true"></span></a>
+          <p class="micro">*ao clicar, você responde perguntas no próprio e-mail pra clarear de onde possivelmente partimos</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section bg-white" id="o-que-a-gente-trabalha">
+      <div class="wrap">
+        <div class="head">
+          <p class="label" aria-hidden="true"><span class="us">_</span>o que a gente trabalha juntas</p>
+          <h2 class="sr-only">o que a gente trabalha juntas</h2>
+        </div>
+        <div class="stack">
+          <ul class="list list--cols" role="list">
+            <li><b>seu momento profissional:</b> seu trabalho mudou, sua experiência cresceu? o jeito como você se posiciona hoje dá conta disso?</li>
+            <li><b>como você se apresenta:</b> quando você fala de si e do seu trabalho, dá pra entender o que você faz, o que importa pra você e a robustez que sua trajetória pode trazer pra isso?</li>
+            <li><b>suas ofertas profissionais:</b> dá pra entender o que você oferece, pra quem e por onde começar? faz sentido como uma oferta leva à outra?</li>
+            <li><b>onde e como você comunica:</b> os canais, formatos e ferramentas que você usa cabem em sua agenda e tem ajudado seu trabalho a chegar às pessoas certas?</li>
+            <li><b>as conversas que você quer cultivar:</b> será que parte do tempo que vai pra produzir conteúdo faria mais diferença se fosse dedicado a conversar e trocar com outras pessoas? (spoiler: tem como planejar e fazer acontecer!)</li>
+          </ul>
+          <p class="micro">*a gente parte do que aconteceu nesse 2026 pra entender o melhor jeito de chegar e seguir no próximo ano&nbsp;:)</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-peach" id="como-funciona">
+      <div class="wrap">
+        <div class="head">
+          <p class="label" aria-hidden="true"><span class="us">_</span>como funciona</p>
+          <h2 class="sr-only">como funciona</h2>
+        </div>
+        <ol class="sessions sessions--4" role="list">
+          <li><span class="n">1</span><b>pré-diagnóstico</b><span>ao clicar em “quero agendar”, você responde perguntas no próprio e-mail pra clarear de onde possivelmente partimos</span></li>
+          <li><span class="n">2</span><b>agenda &amp; preparo</b><span>marcamos nossa sessão e você recebe orientação de preparo pra aproveitar ao máximo esse tempo juntas</span></li>
+          <li><span class="n">3</span><b>questões &amp; soluções</b><span>em 1h30 vamos conversar bastante, identificar o que é preciso trabalhar (em que tempo e com que atenção), sonhar caminhos e celebrar o que já é&nbsp;&lt;3</span></li>
+          <li><span class="n">4</span><b>seu plano chega em até 24h</b><span>depois da sessão, você recebe um documento com o que foi definido, tarefas detalhadas, prioridades e cronograma</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section bg-white" id="o-que-voce-leva">
+      <div class="wrap">
+        <div class="head">
+          <p class="label" aria-hidden="true"><span class="us">_</span>o que você leva!</p>
+          <h2 class="sr-only">o que você leva</h2>
+        </div>
+        <div class="split">
+          <p class="lead">você sai com um plano de ação pra 2027, com tarefas detalhadas, ordem de prioridade e cronograma: a ideia é saber o que fazer primeiro e o que seguir construindo, quando fazer cada coisa, quanta energia dedicar a cada parte do planejamento, como e por onde começar</p>
+          <div class="stack">
+            <div>
+              <p class="price">R$&nbsp;950,00</p>
+              <p class="price-note">via pix com 5% de desconto ou em até 3x sem juros via paypal</p>
+            </div>
+            <p>1h30 de encontro individual<span class="us" aria-hidden="true">_</span><span class="sr-only">, </span>online ou presencial em são paulo</p>
+            <div class="ctas"><a class="btn" href="mailto:ei@feferesende.com.br?subject=quero%20agendar%20minha%20sess%C3%A3o%20de%20foco&amp;body=ei%21%20quero%20agendar%20minha%20sess%C3%A3o%20de%20foco%20%3A%29%0D%0A%28pra%20come%C3%A7ar%2C%20responde%20%C3%A0s%20perguntas%3B%20pode%20ser%20em%20t%C3%B3picos%2C%20do%20seu%20jeito%20%3A%29%0D%0A%0D%0A%0D%0A_um%20pouco%20sobre%20meu%20trabalho%0D%0Ao%20que%20voc%C3%AA%20faz%3F%20e%20o%20que%20gostaria%20que%20as%20pessoas%20entendessem%20melhor%20sobre%20seu%20trabalho%3F%0D%0A%0D%0A_minha%20comunica%C3%A7%C3%A3o%20hoje%0D%0Aonde%20voc%C3%AA%20comunica%20seu%20trabalho%3F%20conta%20quais%20canais%20usa%2C%20compartilha%20os%20links%20que%20quer%20que%20eu%20conhe%C3%A7a%0D%0A%0D%0A_o%20que%20est%C3%A1%20emperrado%0D%0Aquais%20s%C3%A3o%20suas%20tr%C3%AAs%20principais%20dificuldades%20de%20comunica%C3%A7%C3%A3o%20hoje%3F%0D%0A%0D%0A_o%20que%20eu%20gostaria%20de%20conseguir%0D%0Ao%20que%20voc%C3%AA%20gostaria%20que%20sua%20comunica%C3%A7%C3%A3o%20ajudasse%20a%20realizar%20em%202027%3F%20o%20que%20faria%20essa%20sess%C3%A3o%20valer%20a%20pena%20pra%20voc%C3%AA%3F%0D%0A%0D%0A_pagamento%20e%20agendamento%0D%0Aque%20per%C3%ADodo%20funciona%20melhor%20pra%20voc%C3%AA%3A%20manh%C3%A3%2C%20tarde%20ou%20fim%20do%20dia%0D%0Aprefere%20pagar%20R%24%20902%2C50%20via%20pix%20ou%20R%24%20950%20em%20at%C3%A9%203x%20sem%20juros%20via%20paypal%3F%20se%20preferir%20paypal%2C%20compartilhe%20o%20e-mail%20da%20sua%20conta%20por%20l%C3%A1%20%3A%29%0D%0A">quero agendar minha sessão<span class="icon icon--email" aria-hidden="true"></span></a></div>
+            <p class="micro">*horários disponíveis somente entre <time datetime="2026-11-26">26/11</time> e <time datetime="2026-12-15">15/12</time></p>
+            <p class="credit">(e se em 2027 você quiser colocar esse plano em prática comigo, em consultoria individual, o valor integral da sessão é deduzido do valor atual de R$&nbsp;9.800. o escopo da consultoria é desenhado a partir do seu diagnóstico e do que você precisa desenvolver)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-mint" id="quem-ja-fez">
+      <div class="wrap">
+        <div class="head">
+          <p class="label" aria-hidden="true"><span class="us">_</span>quem já fez</p>
+          <h2 class="sr-only">quem já fez</h2>
+        </div>
+        <div class="quotes">
+          <figure class="quote">
+            <blockquote><p>“uma metodologia própria que é muito pé no chão, realista, adequada ao contexto neoliberal em que vivemos. dá pra ver que além de ter muita experiência, a fefe continua se atualizando. ainda por cima é uma pessoa comunicativa e acolhedora, que dá gosto de ouvir. altamente recomendada!”</p></blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">m</span><span><b>mariah pimenta</b></span></figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote><p>“cheguei com a angústia de não saber por onde começar, me sentindo sobrecarregada por tantas regras. fui entendendo que já tenho muito o que mostrar, que não sou todo mundo (nem que preciso falar com todo mundo) e que é justamente no que já sou, que mora meu diferencial. ainda tenho muito por construir, mas a fefe me mostrou um caminho que meu rio pode seguir. sou grata porque ela me trouxe, além de ensinamentos importantes pra minha comunicação, um olhar mais amplo e acolhedor pra o meu ser.”</p></blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">k</span><span><b>keite dantas</b></span></figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote><p>“cheguei a sessão com muitas ideias mas travada pra organizar minha comunicação, com excesso de informações e sem clareza de como estruturar tudo. durante o processo, a fefe trouxe direcionamento com uma escuta atenta e sensível. o grande divisor de águas foi entender que eu não precisava escolher um nicho restrito, podia construir uma linha editorial ampla, alinhada à minha experiência: saí com o conteúdo do meu site estruturado e um plano de ação claro. desde então, sigo aplicando no meu ritmo, com segurança. se pudesse, faria uma sessão todo mês: além do direcionamento dela, a energia e o alto astral da fefe deixam o processo mais leve e potente.”</p></blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">v</span><span><b>valéria miranda</b></span></figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote><p>“durante a sessão fui provocada a olhar para a pessoa que eu já sou, e não a que a minha mente gostaria que eu fosse (mas com espaço para fazer estas duas se encontrarem em algum momento). a fe conduz o processo com muita entrega e um olhar técnico afiado que meu deu segurança para caminhar. saí com um plano de ação claro e possível de executar, pra seguir cuidando da comunicação de um jeito bem mais leve e possível.”</p></blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">i</span><span><b>isabela paranhos</b></span></figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote><p>“a fefe tem um poder de escuta incrível, o que faz com que a experiência da sessão de foco seja ainda mais prazerosa e produtiva. ela trouxe ideias e clareza para o que, até então, era confuso para mim. ter esse olhar sensível e generoso sobre o meu trabalho e objetivos de carreira fez toda a diferença. minha comunicação é outra depois de passar por esse processo: mais ativa, direta e intencional! recomendo demais passar por essa experiência com a fefe! &lt;3”</p></blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">l</span><span><b>lohana barbosa</b></span></figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote><p>“cheguei pro encontro com a fefe com uma mochilona lotada de ferramentas e informações sobre mim e sobre o meu negócio. mas, justamente por ter muito material, eu tava me sentindo paralisada, sem saber por onde começar. a fefe foi muito assertiva, definindo prioridades, organizando o caos da mochila e desenhando um plano de ação claro e possível. o que eu achei mais legal é que, além do plano ideal, ela também entrega o plano B, aquele pra quando a vida nos atropela, a gente fica sobrecarregada e precisa saber exatamente no que focar pra comunicação continuar andando. muito prática, muito assertiva e zero mirabolâncias, considerando totalmente a vida como ela é.”</p></blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">f</span><span><b>francine dias</b></span></figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote><p>“fiz a sessão de foco com a fefe saí com aquela sensação de conseguir limpar e enxergar o caminho por onde precisava ir! é muito certeiro, você entra meio perdida e sai alinhada, pronta pra se apresentar e ser quem se é por aí. só agradeço!”</p></blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">i</span><span><b>iza caldeira</b></span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight bg-lilac" id="agendar">
+      <div class="wrap band">
+        <div>
+          <h2 class="band-h">sessão de foco com fefe resende</h2>
+          <p>sessões de fim de ano, de <time datetime="2026-11-26">26/11</time> a <time datetime="2026-12-15">15/12</time></p>
+        </div>
+        <a class="btn" href="#matricula">quero agendar minha sessão</a>
+      </div>
+    </section>
+
+    <section class="section bg-white" id="escola-de-si">
+      <div class="wrap">
+        <div class="head">
+          <p class="label"><span class="us" aria-hidden="true">_</span>saber de si pra falar de si</p>
+          <h2 class="h2">escola de si</h2>
+        </div>
+        <div class="stack">
+          <p class="lead">uma escola de comunicação pessoal: aulas, grupo de estudo e consultoria pra dizer quem você é, o que faz e por que isso importa&nbsp;:) e se reconhecer nesse processo; com método, companhia e um plano que parte dos seus objetivos e cabe na sua vida</p>
+          <p>a agenda de 2027 está em preparação e vai reunir nossa formação, grupo de estudos, nossa escolaflix e a consultoria individual conduzida por fefe resende. assim que esse calendário estiver pronto, quem assina o nosso boletim recebe em primeira mão&nbsp;;-)</p>
+          <div class="ctas"><a class="btn" href="https://newsdaescola.substack.com/">quero receber o boletim da escola de si<span class="icon icon--seta-externa" aria-hidden="true"></span></a></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="buybar" data-compra="#matricula" hidden>
+      <p class="buybar-info"><b class="price">R$&nbsp;950,00</b><span>de 26/11 a 15/12</span></p>
+      <a class="btn btn--small" href="mailto:ei@feferesende.com.br?subject=quero%20agendar%20minha%20sess%C3%A3o%20de%20foco&amp;body=ei%21%20quero%20agendar%20minha%20sess%C3%A3o%20de%20foco%20%3A%29%0D%0A%28pra%20come%C3%A7ar%2C%20responde%20%C3%A0s%20perguntas%3B%20pode%20ser%20em%20t%C3%B3picos%2C%20do%20seu%20jeito%20%3A%29%0D%0A%0D%0A%0D%0A_um%20pouco%20sobre%20meu%20trabalho%0D%0Ao%20que%20voc%C3%AA%20faz%3F%20e%20o%20que%20gostaria%20que%20as%20pessoas%20entendessem%20melhor%20sobre%20seu%20trabalho%3F%0D%0A%0D%0A_minha%20comunica%C3%A7%C3%A3o%20hoje%0D%0Aonde%20voc%C3%AA%20comunica%20seu%20trabalho%3F%20conta%20quais%20canais%20usa%2C%20compartilha%20os%20links%20que%20quer%20que%20eu%20conhe%C3%A7a%0D%0A%0D%0A_o%20que%20est%C3%A1%20emperrado%0D%0Aquais%20s%C3%A3o%20suas%20tr%C3%AAs%20principais%20dificuldades%20de%20comunica%C3%A7%C3%A3o%20hoje%3F%0D%0A%0D%0A_o%20que%20eu%20gostaria%20de%20conseguir%0D%0Ao%20que%20voc%C3%AA%20gostaria%20que%20sua%20comunica%C3%A7%C3%A3o%20ajudasse%20a%20realizar%20em%202027%3F%20o%20que%20faria%20essa%20sess%C3%A3o%20valer%20a%20pena%20pra%20voc%C3%AA%3F%0D%0A%0D%0A_pagamento%20e%20agendamento%0D%0Aque%20per%C3%ADodo%20funciona%20melhor%20pra%20voc%C3%AA%3A%20manh%C3%A3%2C%20tarde%20ou%20fim%20do%20dia%0D%0Aprefere%20pagar%20R%24%20902%2C50%20via%20pix%20ou%20R%24%20950%20em%20at%C3%A9%203x%20sem%20juros%20via%20paypal%3F%20se%20preferir%20paypal%2C%20compartilhe%20o%20e-mail%20da%20sua%20conta%20por%20l%C3%A1%20%3A%29%0D%0A"><span>quero agendar<span class="sr-only"> minha sessão</span></span></a>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div><img class="foot-logo" src="marca/logo/logo-vertical-branco.svg" alt="escola de si" width="208" height="151" loading="lazy" decoding="async"></div>
+      <div>
+        <h2>contato</h2>
+        <ul>
+          <li><a href="mailto:ola@escoladesi.com.br"><span class="icon icon--email" aria-hidden="true"></span>ola@escoladesi.com.br</a></li>
+          <li><a href="https://wa.me/5511973081424" rel="noopener"><span class="icon icon--whatsapp" aria-hidden="true"></span>11 97308-1424</a></li>
+          <li><a href="https://www.instagram.com/escoladesi_/" rel="noopener"><span class="icon icon--instagram" aria-hidden="true"></span>instagram</a></li>
+          <li><a href="https://www.linkedin.com/company/escoladesi/" rel="noopener"><span class="icon icon--linkedin" aria-hidden="true"></span>linkedin</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <span>escola de si<span class="us" aria-hidden="true">_</span>fazer companhia &gt; fazer campanha</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

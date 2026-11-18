@@ -1,0 +1,10 @@
+# o site é a pasta site/, sem build.
+[build]
+  publish = "site"
+
+# enquanto não existir site/index.html, o endereço principal leva pra sessão de foco.
+# quando a página inicial entrar, esta regra para de valer sozinha (o arquivo vence a regra).
+[[redirects]]
+  from = "/"
+  to = "/foco/"
+  status = 302
